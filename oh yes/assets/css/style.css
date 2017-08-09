@@ -1,0 +1,30 @@
+@charset "UTF-8";
+h1 {
+	color: #000000;
+	font-family: 'Helvetica Bold', 'Helvetica', 'Arial';
+	font-size: 80px;
+	text-align: left;
+}
+h2 {
+	font-family: 'Helvetica Bold', 'Helvetica', 'Arial';
+	font-size: 50px;
+	text-align: left;
+	color: #000000;
+}
+a:link {
+	text-decoration: none;
+	color: #0c33d2;
+}
+a:hover {
+	text-decoration: line-through
+}
+a:visited {
+	color: #0c33d2;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(assets/fonts/Helvetica-Bold.ttf);
+}p {
+	position: relative;
+	top: 150px;
+}
